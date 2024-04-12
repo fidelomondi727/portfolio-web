@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://127.0.0.1:5500/mod.html/Tembea/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web</title>
+    <link rel="stylesheet" href="./Portfolio web_files/portfolio.css">
+    <link rel="stylesheet" href="./Portfolio web_files/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img src="./Portfolio web_files/istockphoto-1402294673-612x612.jpg" class="logo">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#">About</a></li>
+                <li><a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#">Skills</a></li>
+                <li><a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <h3>Hi, I'M  <span>fidel</span></h3>
+            <h1>WEB <span>DESINER</span></h1>
+            <h3>web designer and l am from kenya. <br>l create <br>wedsites to do bussinesses and do better <br>online.</h3>
+            <a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#">You can hire me</a>
+            <br>
+            <a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#">For more info call 0702946805</a>
+        </div>
+        <br>
+        <div class="image">
+            <img src="./Portfolio web_files/fidel.jpg" class="fidel">
+        </div>
+        <br>
+        <div class="home-sci">
+            <a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://127.0.0.1:5500/mod.html/Tembea/portfolio.html#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
