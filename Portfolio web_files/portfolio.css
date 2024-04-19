@@ -3,7 +3,7 @@
     padding: 0%;
 }
 .main{
-    background-image: url(https://media.istockphoto.com/id/1257005098/photo/hd-wallpaper-for-mobile-phones.jpg?s=612x612&w=0&k=20&c=M7K-gjKWnXY6UntO8BQTf5yw2sOtsUzLoyUfou2auqY=);
+    background: rgba(0, 0, 0, 0.8);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ ul li a{
     margin-top: 3%;
 }
 ul li a:hover{
-    color: red;
+    color: orangered;
 }
 .info{
     margin-top: 7%;
@@ -68,10 +68,10 @@ ul li a:hover{
     display: inline-block;
 }
 .info a:hover{
-    background-color: red;
+    background-color: orangered;
 }
 .info span{
-    color: red;
+    color: orangered;
 }
 .image{
     width: 30%;
@@ -88,37 +88,146 @@ ul li a:hover{
     bottom: 0;
     transition: left 3s ease;
 }
-.home-sci{
-    position: absolute;
-    bottom: 40px;
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
+.icons a{
+    text-decoration: none;
+    color: orangered;
 }
-.home-sci a{
-    position: relative;
-    display: inline-flex;
+.icons{
+    margin-left: 6%;
+    color: orangered;
+    margin-right: -60px;
+    font-size: 40px;
+}
+.About{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid;
-    border-radius: 5%;
+    padding: 12% 8%;
+    gap: 5em;
+    background: black;
+}
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered;
+    border-radius: 50%;      
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+
+}
+.about-content h3{
+    font-size: 62px;
+    color: white;
+}
+.about-content p{
+    color: white;
     font-size: 20px;
-    color: red;
-    text-decoration: none;
-    z-index: 1;
+    margin: 2em 0 3em;
 }
-.home-sci a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    z-index: -1;
+.about-content a{
+    color: orangered;
 }
-.home-sci a:hover::before{
+.about-content a:hover{
+    color: white;
+}
+.heading span{
+    color: orangered;
+}
+.about-contect span{
+    color: orangered;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+.contact-form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-form form textarea{
     width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb( 241,  241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+.contact-me{
+    color: black;
+}
+.contact-me span{
+    color: orangered;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid orangered;
+    width: 48px;
+    height: 48px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px orangered,0 0 10px orangered;
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.social a{
+    color: white;
 }
