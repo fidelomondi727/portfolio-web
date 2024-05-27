@@ -127,12 +127,6 @@ ul li a:hover{
     font-size: 20px;
     margin: 2em 0 3em;
 }
-.about-content a{
-    color: orangered;
-}
-.about-content a:hover{
-    color: white;
-}
 .heading span{
     color: orangered;
 }
@@ -170,6 +164,16 @@ ul li a:hover{
     border-radius: .8rem;
     margin: 1rem 0;
     resize: none;
+}
+#form{
+    color: orangered;
+}
+#sbntbtn{
+    color: orangered;
+}
+#sbntbtn:hover{
+    color: beige;
+    background-color: black;
 }
 .contact-me{
     color: black;
@@ -229,5 +233,19 @@ ul li a:hover{
     padding: 0 15px;
 }
 .social a{
+    color: white;
+}
+#btn{
+color: orangered;
+}
+#btn:hover{
+    color: white;
+    background: black;
+}
+.btn-2{
+    color: orangered;
+}
+.btn-2:hover{
+    background: black;
     color: white;
 }

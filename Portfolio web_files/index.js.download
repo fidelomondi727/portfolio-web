@@ -1,0 +1,22 @@
+let sbntbtn = document.getElementById("sbntbtn");
+let names = document.getElementById("myName");
+console.log(names);
+console.log(sbntbtn);
+sbntbtn.addEventListener('click',(e) => {
+e.preventDefault();
+alert(`hi fidel Message delivered successfully to omondifidel727@gmail, ${names.value}`)
+
+});
+
+
+let b = document.getElementById("btn");
+console.log(b);
+b.addEventListener("click",function(){
+    
+    let store = document.getElementById("about-me-parag")
+    console.log(store);
+    store.style.color = "aqua"
+    store.style.backgroundColor = "grey"
+    store.style.fontSize ="25px"
+})
+
